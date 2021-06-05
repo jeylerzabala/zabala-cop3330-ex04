@@ -22,5 +22,28 @@ Add more inputs to the program to expand the story.
 Implement a branching story, where the answers to questions determine how the story is constructed.
 */
 
+import java.util.Scanner;
+
 public class App {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter a noun: ");
+        String noun = in.nextLine();
+
+        Scanner in2 = new Scanner(System.in);
+        System.out.print("Enter a verb: ");
+        String verb = in.nextLine();
+
+        Scanner in3 = new Scanner(System.in);
+        System.out.print("Enter an adjective: ");
+        String adjective = in.nextLine();
+
+        Scanner in4 = new Scanner(System.in);
+        System.out.print("Enter an adverb: ");
+        String adverb = in.nextLine();
+
+        String outputString = String.format("Do you %s your %s %s %s? That's hilarious!", verb, adjective, noun, adverb);
+        System.out.println(outputString);
+
+    }
 }
