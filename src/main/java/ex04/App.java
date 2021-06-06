@@ -1,6 +1,10 @@
 package ex04;
 
 /*
+
+*  UCF COP3330 Summer 2021 Assignment 1 Solution
+*  Copyright 2021 Jeyler Zabala
+
 Exercise 4 - Mad Lib
 Mad libs are a simple game where you create a story template with blanks for words. You, or another player,
 then construct a list of words and place them into the story, creating an often silly or funny story as a result.
@@ -30,15 +34,12 @@ public class App {
         System.out.print("Enter a noun: ");
         String noun = in.nextLine();
 
-        Scanner in2 = new Scanner(System.in);
         System.out.print("Enter a verb: ");
         String verb = in.nextLine();
 
-        Scanner in3 = new Scanner(System.in);
         System.out.print("Enter an adjective: ");
         String adjective = in.nextLine();
 
-        Scanner in4 = new Scanner(System.in);
         System.out.print("Enter an adverb: ");
         String adverb = in.nextLine();
 
@@ -47,3 +48,4 @@ public class App {
 
     }
 }
+
